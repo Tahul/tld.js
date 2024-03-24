@@ -1,16 +1,9 @@
 #!/usr/bin/env node
 
-'use strict';
+/* eslint-disable no-console */
 
-var pathJoin = require('path').join;
-var updater = require(pathJoin(__dirname, '..', 'lib', 'updater'));
+import updater from '../dist/updater.cjs'
 
-module.exports = updater;
+console.log('Requesting tld data...')
 
-if (process.mainModule === module) {
-  console.log('Requesting tld data...');
-
-  updater.run(function(){
-    console.log('Update complete.');
-  });
-}
+updater.run(() => console.log('Update complete.'))
