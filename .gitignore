@@ -16,7 +16,7 @@ coverage*
 .idea
 .nyc_output
 
-rules.json
+dist
 tld.js
 tld.min.js
 
