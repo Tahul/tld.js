@@ -1,5 +1,5 @@
 {
-  "name": "tldjs",
+  "name": "@tahul/tldjs",
   "type": "module",
   "version": "2.3.1",
   "description": "JavaScript API to work against complex domain names, subdomains and URIs.",
