@@ -1,4 +1,4 @@
-import punycode from 'punycode/punycode'
+import punycode from '@tahul/punycode'
 import SuffixTrie from '../suffix-trie'
 
 /**
