@@ -40,7 +40,6 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "benchmark": "node ./bin/benchmark.js",
-    "postinstall": "node ./bin/postinstall.js",
     "update": "node ./bin/update.js",
     "build": "unbuild -c build.config.ts",
     "stub": "unbuild -c build.config.ts --stub",
